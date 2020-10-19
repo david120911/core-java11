@@ -20,7 +20,8 @@ public class LambdaTest {
         Arrays.sort(planets);
         System.out.println(Arrays.toString(planets));
         System.out.println("Sorted by length  ");
-        Arrays.sort(planets,(String first,String second) -> first.length()-second.length());
+//        Arrays.sort(planets,(String first,String second) -> first.length()-second.length());
+        Arrays.sort(planets,(String first,String second) -> {return first.length() -second.length(); });
         System.out.println(Arrays.toString(planets));
 
         var timer = new Timer(
