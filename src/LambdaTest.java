@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import javax.swing.*;
 import java.util.Arrays;
 import java.util.Date;
@@ -24,13 +26,26 @@ public class LambdaTest {
         Arrays.sort(planets,(String first,String second) -> {return first.length() -second.length(); });
         System.out.println(Arrays.toString(planets));
 
-        var timer = new Timer(
-                1000, event ->
-             System.out.println("the time is " + new Date()));
-        timer.start();
+//        var timer = new Timer(
+//                1000, event ->
+//             System.out.println("the time is " + new Date()));
+//        timer.start();
+
+
+//        var timer2 = new Timer(1000,event-> System.out.println(event +  " ok "));
+//        timer2.start();
+
+        var timer3 = new Timer(1000, System.out::println);
+        timer3.start();
+
+
         JOptionPane.showMessageDialog(null,"quit program?");
 
 // 终于搞定  用java-version 11 然后javac java命令搞定
+
+
+
+
 
         System.exit(0);
     }
