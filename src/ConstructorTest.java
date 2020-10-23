@@ -20,7 +20,7 @@ public class ConstructorTest {
 
         ArrayList<String> names =new ArrayList<>( Arrays.asList(planets));
         System.out.println(names);
-       Stream<Person> stream =  names.stream().map(Person::new);
+//       Stream<Person> stream =  names.stream().map(Person::new);
 
     }
 
