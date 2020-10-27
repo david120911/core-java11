@@ -365,7 +365,7 @@ public class OopFormatTest {
 
     class ExtendedClass{
         protected void buyHouse(){
-            
+
         }
     }
 
