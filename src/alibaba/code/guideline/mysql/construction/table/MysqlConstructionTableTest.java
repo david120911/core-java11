@@ -136,7 +136,7 @@ public class MysqlConstructionTableTest {
      *
      */
 
-    // 分库分表 
+    // 分库分表
 
     /**
      *
