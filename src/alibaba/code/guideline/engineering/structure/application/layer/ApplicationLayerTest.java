@@ -43,7 +43,7 @@ public class ApplicationLayerTest {
      * 开放接口层要将异常 处理成错误码和错误信息方式返回。
      *
      *
-     * 
+     *
      * 3. 【参考】分层领域模型规约:
      *  DO(Data Object):与数据库表结构一一对应，通过 DAO 层向上传输数据源对象。
      *  DTO(Data Transfer Object):数据传输对象，Service 和 Manager 向外传输的对象。
